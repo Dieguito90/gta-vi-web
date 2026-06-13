@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA VI | Fan page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="menu">
+      <a class="logo" href="#inicio">GTA VI</a>
+      <div class="links">
+        <a href="#cuenta">Cuenta regresiva</a>
+        <a href="#videos">Videos</a>
+        <a href="#datos">Datos</a>
+      </div>
+    </nav>
+
+    <div class="hero-texto">
+      <span class="etiqueta">Vice City vibes</span>
+      <h1>Todo lo que voy juntando de GTA VI</h1>
+      <p>
+        Trailers, material oficial y una cuenta regresiva para tenerlo todo en una sola página.
+      </p>
+      <a class="boton" href="#videos">Ver videos</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="bloque cuenta" id="cuenta">
+      <span class="etiqueta pequena">Cuenta regresiva</span>
+      <h2>Falta para el lanzamiento</h2>
+      <p class="nota">Marcada para el 19 de noviembre de 2026.</p>
+
+      <div class="reloj">
+        <div class="tiempo"><b id="days">000</b><span>días</span></div>
+        <div class="tiempo"><b id="hours">00</b><span>horas</span></div>
+        <div class="tiempo"><b id="minutes">00</b><span>min</span></div>
+        <div class="tiempo"><b id="seconds">00</b><span>seg</span></div>
+      </div>
+      <p id="countdown-message" class="mensaje"></p>
+    </section>
+
+    <section class="bloque" id="videos">
+      <div class="titulo-seccion">
+        <span class="etiqueta pequena">Videos oficiales</span>
+        <h2>Trailers</h2>
+      </div>
+
+      <div class="grid-videos">
+        <article class="tarjeta">
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/QdBZY2fkU-0" title="Grand Theft Auto VI Trailer 1" allowfullscreen></iframe>
+          </div>
+          <h3>Trailer 1</h3>
+          <p>El primer vistazo oficial a Vice City, Jason, Lucia y todo el ambiente de Leonida.</p>
+        </article>
+
+        <article class="tarjeta">
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/VQRLujxTm3c" title="Grand Theft Auto VI Trailer 2" allowfullscreen></iframe>
+          </div>
+          <h3>Trailer 2</h3>
+          <p>Más escenas del juego, personajes y detalles que se notan mejor al verlo varias veces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="bloque oscuro">
+      <div class="tarjeta grande">
+        <span class="etiqueta pequena">Material extra</span>
+        <h2>Playlist oficial</h2>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PL-r1a4Mhgtx-hbMQlC2ubKeoXekYv4HMb" title="Playlist oficial de GTA VI" allowfullscreen></iframe>
+        </div>
+        <p class="nota-final">
+          Aquí dejo la lista para tener los trailers juntos sin andar buscándolos cada vez.
+        </p>
+      </div>
+    </section>
+
+    <section class="bloque" id="datos">
+      <span class="etiqueta pequena">Info rápida</span>
+      <h2>Datos del juego</h2>
+      <div class="datos">
+        <div><span>Ubicación</span><b>Vice City y Leonida</b></div>
+        <div><span>Personajes</span><b>Jason y Lucia</b></div>
+        <div><span>Consolas</span><b>PS5 / Xbox Series X|S</b></div>
+        <div><span>Fecha</span><b>19 noviembre 2026</b></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Fan page no oficial. GTA VI y Grand Theft Auto pertenecen a Rockstar Games.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
